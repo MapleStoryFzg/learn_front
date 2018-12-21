@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta chatset="utf-8">
+    <meta charset="utf-8">
     <title>Demo</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -9,28 +9,20 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
     <!--<meta name="content-type" content="text/html; charset=UTF-8">-->
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
 </head>
 <body>
 <input type="text" class="demo-input" placeholder="请选择日期" id="test1" onfocus="add()">
 <input type="text" class="demo-input" placeholder="123" id="test2" onfocus="add()">
 
-<!--<script type="text/javascript" src="layDate-v5.0.9/laydate/laydate.js"></script>-->
-<!--<script type="text/javascript">-->
-    <!--//laydate.render({-->
-    <!--//	elem: '#test1'-->
-    <!--//});-->
-    <!--//document.getElementByid('test1').onfocus = function(){-->
-    <!--//	laydate();-->
-    <!--//}-->
+<!--<script type="text/javascript" src="/static/js/laydate/laydate.js"></script>-->
+<script type="text/javascript" src="../static/js/laydate/laydate.js"></script>
 
-    <!--function add(){-->
-        <!--//alert("123");-->
-
-        <!--laydate();-->
-    <!--}-->
-
-<!--</script>-->
+<script type="text/javascript">
+    laydate.render({
+    	elem: '#test1'
+    });
+</script>
 
 </body>
 </html>
